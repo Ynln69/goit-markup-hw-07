@@ -48,15 +48,6 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
   }
-
-  %list {
-    list-style: none;
-  }
-  
-  %link {
-    text-decoration: none;
-  }
-  
   .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -69,3 +60,13 @@ body {
     clip-path: inset(50%);
     margin: -1px;
   }
+
+  %list {
+    list-style: none;
+  }
+  
+  %link {
+    text-decoration: none;
+  }
+  
+  

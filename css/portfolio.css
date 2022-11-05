@@ -64,15 +64,6 @@ img {
   text-align: center;
 }
 
-.footer-join__list, .footer__list, .card, .filter__list, .contact, .header__list {
-  list-style: none;
-}
-
-.footer-join__link, .footer__contact, .footer__link, .card__link, .contact__link, .header__link, .logo,
-.logo__dark {
-  text-decoration: none;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -85,6 +76,15 @@ img {
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
   margin: -1px;
+}
+
+.footer-join__list, .footer__list, .card, .filter__list, .contact, .header__list {
+  list-style: none;
+}
+
+.footer-join__link, .footer__contact, .footer__link, .card__link, .contact__link, .header__link, .logo,
+.logo__dark {
+  text-decoration: none;
 }
 
 .logo,
